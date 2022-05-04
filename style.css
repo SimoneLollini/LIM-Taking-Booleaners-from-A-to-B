@@ -1,0 +1,85 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+
+/* main container */
+.container{
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 7%;
+  border-radius: 15px;
+}
+
+
+header{
+  color: #00dd00;
+}
+
+
+header, nav {
+  text-align: center;
+}
+
+
+header > img {
+  max-width: 23%;
+  margin-top: 5%;
+}
+
+
+nav {
+  background-color: #00dd00;
+  padding: 9px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+
+/* monopattini */
+main{
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-right: 7%;
+  color: white;
+}
+
+
+main > section{
+  margin-top: 2%;
+}
+
+
+section h2{
+  display: inline;
+}
+
+
+/* barra stato carica */
+.charge div{
+  padding: 12px;
+  border-radius: 5px;
+}
+
+
+.full{
+  background-color: #1ec31e;
+  width: 60%
+}
+
+
+.half{
+  background-color:  #f5b453;
+  width: 30%
+}
+
+
+.empty{
+  background-color: #be4141;
+  width: 10%
+}
